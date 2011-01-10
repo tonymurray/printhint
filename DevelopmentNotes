@@ -48,3 +48,10 @@ git rm -rf chrome (remove a folder)
 git add *
 git push git@github.com:tonymurray/printhint.git
 git pull git@github.com:tonymurray/printhint.git
+
+
+Testing:
+There are some test page links here:
+http://www.ruadesign.org/firefox/tests/
+(some links in 'real world' section are out of date here:
+http://www.ruadesign.org/firefox/tests/PrintHint.html)

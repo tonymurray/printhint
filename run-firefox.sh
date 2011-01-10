@@ -1,1 +1,1 @@
-/usr/bin/firefox -no-remote -P dev
+/usr/bin/firefox -no-remote -P
