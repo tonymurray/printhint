@@ -10,7 +10,7 @@
 <groupbox align="center" orient="horizontal">
 <vbox>
   <text value="Print Hint" style="font-weight: bold; font-size: x-large;"/>
-  <text value="ver. 0.33"/>
+  <text value="ver. 0.4"/>
   <separator class="thin"/>
   <text value="Created by:" style="font-weight: bold;"/>
   <text value="Tony &amp; Eoghan Murray" class="url"
@@ -29,7 +29,7 @@
 <text value="either print directly or open the print version. Visit address above for further info." />
 </vbox>
 <spring flex="1"/>
-<image src="chrome://printhint/skin/printer.png"/>
+<image src="chrome://printhint/skin/classic/printer.png"/>
 </groupbox>
   <hbox>
   <spacer flex="1"/>

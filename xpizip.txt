@@ -1,3 +1,5 @@
+install.rdf
+chrome.manifest
 content
 content/about.xul
 content/browserOverlay.js
@@ -18,5 +20,3 @@ locale/en-US
 locale/en-US/tooltip.properties
 locale/en-US/contents.rdf
 locale/en-US/options.dtd
-
-
