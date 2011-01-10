@@ -1,0 +1,50 @@
+Some development notes
+
+
+1. You can run several versions of Firefox as follows:
+
+
+Download and untar versions from Mozilla website:
+http://www.mozilla.com/en-US/firefox/all-older.html
+http://www.mozilla.com/en-US/firefox/beta/
+
+Start versions directly from the unzipped folder as follows:
+
+./firefox -no-remote -P 
+
+This brings up the profile dialog.
+
+To use the Git development profile (called firefox.profile)
+
+
+Create a new profile, --> Next --> Choose Profile folder, then navigate to the development profile 
+--> Then provide a name for the profile (such as Printhint Git profile), OK
+
+
+To-Do - PH installed in profile not working .....
+
+The profile is meant to include the printhint extension (but it gets deleted sometimes by FF 3.5
+(recreate file named {4ca88e02-7bbb-43fe-ae41-5103893fa10c} with text: "../../")
+
+
+Older versions of Printhint are in the folder archive... please do not unzip in that folder
+
+
+
+Some useful git commands:
+
+
+ssh git@github.com (to test connection, should disconnect automatically)
+
+git branch
+git checkout master
+git checkout -b testing2
+git commit -am 'removed test files'
+git status
+git merge newbranch
+git grep printversion-tooltip
+git blame -- content/browserOverlay.xul
+git rm -rf chrome (remove a folder)
+git add *
+git push git@github.com:tonymurray/printhint.git
+git pull git@github.com:tonymurray/printhint.git

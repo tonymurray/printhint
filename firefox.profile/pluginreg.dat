@@ -1,19 +1,110 @@
 Generated File. Do not edit.
 
 [HEADER]
-Version:0.10:$
+Version:0.11:$
 
 [PLUGINS]
-/opt/google/picasa/3.0/lib/npPicasa3.so:$
+skypebuttons.so:$
+/usr/lib/mozilla/plugins/skypebuttons.so:$
 :$
-:$
-1226106226000:1:5:$
-Picasa plugin:$
-Picasa:$
+1294431267000:1:5:$
+Mime Type x-skype for Skype Buttons:$
+Skype Buttons for Kopete:$
 1
-0:application/x-picasa-detect:3.0:pinstall:$
-/usr/lib/jvm/java-6-sun-1.6.0.22/jre/lib/i386/libnpjp2.so:$
+0:application/x-skype:Skype Buttons::$
+libnpgtpo3dautoplugin.so:$
+/opt/google/talkplugin/libnpgtpo3dautoplugin.so:$
 :$
+1292280850000:1:5:$
+Google Talk Plugin Video Accelerator version:0.1.43.4:$
+Google Talk Plugin Video Accelerator:$
+1
+0:application/vnd.gtpo3d.auto:O3D MIME::$
+libnpgoogletalk.so:$
+/opt/google/talkplugin/libnpgoogletalk.so:$
+:$
+1292280849000:1:5:$
+Version: 1.7.1.0:$
+Google Talk Plugin:$
+1
+0:application/googletalk:Google Talk Plugin:googletalk:$
+librhythmbox-itms-detection-plugin.so:$
+/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
+:$
+1289327780000:1:5:$
+This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
+iTunes Application Detector:$
+1
+0:application/itunes-plugin:::$
+libtotem-narrowspace-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-narrowspace-plugin.so:$
+:$
+1285633033000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
+QuickTime Plug-in 7.6.6:$
+5
+0:video/quicktime:QuickTime video:mov:$
+1:video/mp4:MPEG-4 video:mp4:$
+2:image/x-macpaint:MacPaint Bitmap image:pntg:$
+3:image/x-quicktime:Macintosh Quickdraw/PICT drawing:pict, pict1, pict2:$
+4:video/x-m4v:MPEG-4 video:m4v:$
+libtotem-mully-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-mully-plugin.so:$
+:$
+1285633033000:1:5:$
+DivX Web Player version 1.4.0.233:$
+DivX® Web Player:$
+1
+0:video/divx:AVI video:divx:$
+libtotem-gmp-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-gmp-plugin.so:$
+:$
+1285633033000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
+Windows Media Player Plug-in 10 (compatible; Totem):$
+13
+0:application/x-mplayer2:AVI video:avi, wma, wmv:$
+1:video/x-ms-asf-plugin:ASF video:asf, wmv:$
+2:video/x-msvideo:AVI video:asf, wmv:$
+3:video/x-ms-asf:ASF video:asf:$
+4:video/x-ms-wmv:Windows Media video:wmv:$
+5:video/x-wmv:Windows Media video:wmv:$
+6:video/x-ms-wvx:Windows Media video:wmv:$
+7:video/x-ms-wm:Windows Media video:wmv:$
+8:video/x-ms-wmp:Windows Media video:wmv:$
+9:application/x-ms-wms:Windows Media video:wms:$
+10:application/x-ms-wmp:Windows Media video:wmp:$
+11:application/asx:Microsoft ASX playlist:asx:$
+12:audio/x-ms-wma:Windows Media audio:wma:$
+libtotem-cone-plugin.so:$
+/usr/lib/mozilla/plugins/libtotem-cone-plugin.so:$
+:$
+1285633033000:1:5:$
+The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
+VLC Multimedia Plugin (compatible Totem 2.32.0):$
+20
+0:application/x-vlc-plugin:VLC Multimedia Plugin::$
+1:application/vlc:VLC Multimedia Plugin::$
+2:video/x-google-vlc-plugin:VLC Multimedia Plugin::$
+3:application/x-ogg:Ogg multimedia file:ogg:$
+4:application/ogg:Ogg multimedia file:ogg:$
+5:audio/ogg:Ogg Audio:oga:$
+6:audio/x-ogg:Ogg Audio:ogg:$
+7:video/ogg:Ogg Video:ogv:$
+8:video/x-ogg:Ogg Video:ogg:$
+9:application/annodex:Annodex exchange format:anx:$
+10:audio/annodex:Annodex Audio:axa:$
+11:video/annodex:Annodex Video:axv:$
+12:video/mpeg:MPEG video:mpg, mpeg, mpe:$
+13:audio/wav:WAV audio:wav:$
+14:audio/x-wav:WAV audio:wav:$
+15:audio/mpeg:MP3 audio:mp3:$
+16:application/x-nsv-vp3-mp3:NullSoft video:nsv:$
+17:video/flv:Flash video:flv:$
+18:video/webm:WebM video:webm:$
+19:application/x-totem-plugin:Totem Multimedia plugin::$
+libnpjp2.so:$
+/usr/lib/jvm/java-6-sun-1.6.0.22/jre/lib/i386/libnpjp2.so:$
 :$
 1284540256000:1:5:$
 The next generation <a href="http://java.sun.com">Java</a> plug-in for Mozilla browsers.:$
@@ -53,108 +144,16 @@ Java(TM) Plug-in 1.6.0_22:$
 31:application/x-java-bean;version=1.6:Java&#153 Plug-in::$
 32:application/x-java-bean;jpi-version=1.6.0_22:Java&#153 Plug-in::$
 33:application/x-java-vm-npruntime:::$
-/usr/lib/mozilla/plugins/libtotem-narrowspace-plugin.so:$
+npPicasa3.so:$
+/opt/google/picasa/3.0/lib/npPicasa3.so:$
 :$
-:$
-1285633033000:1:5:$
-The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
-QuickTime Plug-in 7.6.6:$
-5
-0:video/quicktime:QuickTime video:mov:$
-1:video/mp4:MPEG-4 video:mp4:$
-2:image/x-macpaint:MacPaint Bitmap image:pntg:$
-3:image/x-quicktime:Macintosh Quickdraw/PICT drawing:pict, pict1, pict2:$
-4:video/x-m4v:MPEG-4 video:m4v:$
-/usr/lib/mozilla/plugins/libtotem-mully-plugin.so:$
-:$
-:$
-1285633033000:1:5:$
-DivX Web Player version 1.4.0.233:$
-DivX® Web Player:$
+1226106226000:1:5:$
+Picasa plugin:$
+Picasa:$
 1
-0:video/divx:AVI video:divx:$
-/usr/lib/mozilla/plugins/libtotem-gmp-plugin.so:$
-:$
-:$
-1285633033000:1:5:$
-The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
-Windows Media Player Plug-in 10 (compatible; Totem):$
-13
-0:application/x-mplayer2:AVI video:avi, wma, wmv:$
-1:video/x-ms-asf-plugin:ASF video:asf, wmv:$
-2:video/x-msvideo:AVI video:asf, wmv:$
-3:video/x-ms-asf:ASF video:asf:$
-4:video/x-ms-wmv:Windows Media video:wmv:$
-5:video/x-wmv:Windows Media video:wmv:$
-6:video/x-ms-wvx:Windows Media video:wmv:$
-7:video/x-ms-wm:Windows Media video:wmv:$
-8:video/x-ms-wmp:Windows Media video:wmv:$
-9:application/x-ms-wms:Windows Media video:wms:$
-10:application/x-ms-wmp:Windows Media video:wmp:$
-11:application/asx:Microsoft ASX playlist:asx:$
-12:audio/x-ms-wma:Windows Media audio:wma:$
-/usr/lib/mozilla/plugins/libtotem-cone-plugin.so:$
-:$
-:$
-1285633033000:1:5:$
-The <a href="http://www.gnome.org/projects/totem/">Totem</a> 2.32.0 plugin handles video and audio streams.:$
-VLC Multimedia Plugin (compatible Totem 2.32.0):$
-20
-0:application/x-vlc-plugin:VLC Multimedia Plugin::$
-1:application/vlc:VLC Multimedia Plugin::$
-2:video/x-google-vlc-plugin:VLC Multimedia Plugin::$
-3:application/x-ogg:Ogg multimedia file:ogg:$
-4:application/ogg:Ogg multimedia file:ogg:$
-5:audio/ogg:Ogg Audio:oga:$
-6:audio/x-ogg:Ogg Audio:ogg:$
-7:video/ogg:Ogg Video:ogv:$
-8:video/x-ogg:Ogg Video:ogg:$
-9:application/annodex:Annodex exchange format:anx:$
-10:audio/annodex:Annodex Audio:axa:$
-11:video/annodex:Annodex Video:axv:$
-12:video/mpeg:MPEG video:mpg, mpeg, mpe:$
-13:audio/wav:WAV audio:wav:$
-14:audio/x-wav:WAV audio:wav:$
-15:audio/mpeg:MP3 audio:mp3:$
-16:application/x-nsv-vp3-mp3:NullSoft video:nsv:$
-17:video/flv:Flash video:flv:$
-18:video/webm:WebM video:webm:$
-19:application/x-totem-plugin:Totem Multimedia plugin::$
-/usr/lib/mozilla/plugins/librhythmbox-itms-detection-plugin.so:$
-:$
-:$
-1289327780000:1:5:$
-This plug-in detects the presence of iTunes when opening iTunes Store URLs in a web page with Firefox.:$
-iTunes Application Detector:$
-1
-0:application/itunes-plugin:::$
-/usr/lib/adobe-flashplugin/libflashplayer.so:$
-:$
-:$
-1290021132000:1:5:$
-Shockwave Flash 10.1 r102:$
-Shockwave Flash:$
-2
-0:application/x-shockwave-flash:Shockwave Flash:swf:$
-1:application/futuresplash:FutureSplash Player:spl:$
-/opt/google/talkplugin/libnpgoogletalk.so:$
-:$
-:$
-1292280849000:1:5:$
-Version: 1.7.1.0:$
-Google Talk Plugin:$
-1
-0:application/googletalk:Google Talk Plugin:googletalk:$
-/opt/google/talkplugin/libnpgtpo3dautoplugin.so:$
-:$
-:$
-1292280850000:1:5:$
-Google Talk Plugin Video Accelerator version:0.1.43.4:$
-Google Talk Plugin Video Accelerator:$
-1
-0:application/vnd.gtpo3d.auto:O3D MIME::$
+0:application/x-picasa-detect:3.0:pinstall:$
+nppdf.so:$
 /usr/lib/mozilla/plugins/nppdf.so:$
-:$
 :$
 1292883378000:1:5:$
 The Adobe Reader plugin is used to enable viewing of PDF and FDF files from within the browser. :$
@@ -165,27 +164,20 @@ Adobe Reader 9.4:$
 2:application/vnd.adobe.xfdf:XML Version of Acrobat Forms Data Format:xfdf:$
 3:application/vnd.adobe.xdp+xml:Acrobat XML Data Package:xdp:$
 4:application/vnd.adobe.xfd+xml:Adobe FormFlow99 Data File:xfd:$
-/usr/lib/mozilla/plugins/skypebuttons.so:$
-:$
-:$
-1294431267000:1:5:$
-Mime Type x-skype for Skype Buttons:$
-Skype Buttons for Kopete:$
-1
-0:application/x-skype:Skype Buttons::$
-/home/tony/Programs/firefox3.5/plugins/libnullplugin.so:$
-:$
-1.0.0.15:$
-1291133872000:1:5:$
-The default plugin handles plugin data for mimetypes and extensions that are not specified and facilitates downloading of new plugins.:$
-Default Plugin:$
-1
-0:*:All types:.*:$
+libflashplayer.so:$
 /usr/lib/mozilla/plugins/libflashplayer.so:$
 :$
+1287567118000:1:1:$
+Shockwave Flash 10.2 d161:$
+Shockwave Flash:$
+2
+0:application/x-shockwave-flash:Shockwave Flash:swf:$
+1:application/futuresplash:FutureSplash Player:spl:$
+libflashplayer.so:$
+/usr/lib/adobe-flashplugin/libflashplayer.so:$
 :$
-1287567118000:1:13:$
-Shockwave Flash 10.1 r102:$
+1290021132000:1:9:$
+Shockwave Flash 10.2 d161:$
 Shockwave Flash:$
 2
 0:application/x-shockwave-flash:Shockwave Flash:swf:$
