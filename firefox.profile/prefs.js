@@ -16,6 +16,7 @@ user_pref("app.update.lastUpdateTime.microsummary-generator-update-timer", 12946
 user_pref("app.update.lastUpdateTime.places-maintenance-timer", 1294666264);
 user_pref("app.update.lastUpdateTime.search-engine-update-timer", 1294666249);
 user_pref("browser.bookmarks.restore_default_bookmarks", false);
+user_pref("browser.history_expire_days.mirror", 180);
 user_pref("browser.migration.version", 1);
 user_pref("browser.places.smartBookmarksVersion", 2);
 user_pref("browser.rights.3.shown", true);
@@ -26,6 +27,7 @@ user_pref("extensions.lastAppVersion", "3.6.14pre");
 user_pref("extensions.update.notifyUser", false);
 user_pref("intl.charsetmenu.browser.cache", "UTF-8");
 user_pref("network.cookie.prefsMigrated", true);
+user_pref("pref.privacy.disable_button.view_passwords", false);
 user_pref("print.tmp.printerfeatures.ML-1510_700.can_change_colorspace", false);
 user_pref("print.tmp.printerfeatures.ML-1510_700.can_change_downloadfonts", false);
 user_pref("print.tmp.printerfeatures.ML-1510_700.can_change_jobtitle", false);
@@ -86,5 +88,6 @@ user_pref("print.tmp.printerfeatures.ML-1510_700.supports_resolution_change", fa
 user_pref("print.tmp.printerfeatures.ML-1510_700.supports_spoolercommand_change", false);
 user_pref("printhint.Preview", false);
 user_pref("privacy.sanitize.migrateFx3Prefs", true);
+user_pref("signon.rememberSignons", false);
 user_pref("spellchecker.dictionary", "en_US");
 user_pref("urlclassifier.keyupdatetime.https://sb-ssl.google.com/safebrowsing/newkey", 1297258251);

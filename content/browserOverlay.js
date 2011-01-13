@@ -57,30 +57,30 @@ var printHint = {
     oldURL: null,
     processNewURL: function(aURI) {
 
-	if (aURI.spec == this.oldURL) {
-	    return;
-	}
+    if (aURI.spec == this.oldURL) {
+    return;
+    }
 
-	this.oldURL = aURI.spec;
+    this.oldURL = aURI.spec;
 
-	if(printHint.loadingInterval) {
-	    clearInterval(printHint.loadingInterval);
-	}
+    if(!content.document._printStatus){
+    // See if we can find a print stylesheet before the page is loaded
+    // i.e. periodically check for stylesheets until page is fully loaded
 
-	if(!content.document._printStatus){
-	    // See if we can find a print stylesheet before the page is loaded
-	    // i.e. periodically check for stylesheets until page is fully loaded
-	    printHint.loadingInterval = window.setInterval(
-		function(){
-		    printHint.checkPrintStylesheet(content.document);
-		}
-		,300);
-	}
+    var event = {
+    observe: function() {
+    printHint.checkPrintStylesheet(content.document);
+     }
+    }
+    var timer = Components.classes["@mozilla.org/timer;1"].createInstance(Components.interfaces.nsITimer);
+    const TYPE_REPEATING_PRECISE = Components.interfaces.nsITimer.TYPE_REPEATING_PRECISE;
 
-	printHint.updatePrintButton();
+    timer.init(event, 150, TYPE_REPEATING_PRECISE);
+     }
+    printHint.updatePrintButton();
     },
 
-
+    
     /************************************************
 	printHint.checkPrintStylesheet
 	***

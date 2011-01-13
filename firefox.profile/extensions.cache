@@ -6,4 +6,4 @@ app-global	langpack-en-CA@firefox-3.6.ubuntu.com	rel%langpack-en-CA@firefox-3.6.
 app-global	langpack-en@firefox-3.6.ubuntu.com	rel%langpack-en@firefox-3.6.ubuntu.com	1286787165	
 app-system-share	ubufox@ubuntu.com	rel%ubufox@ubuntu.com	1288782232	
 app-system-local	refractor@developer.mozilla.org	rel%refractor@developer.mozilla.org	1286793480	
-app-profile	{4ca88e02-7bbb-43fe-ae41-5103893fa10c}	abs%///home/tony/Eoghan/printhint	1294666675	
+app-profile	{4ca88e02-7bbb-43fe-ae41-5103893fa10c}	abs%///home/tony/Eoghan/printhint	1294668045	
