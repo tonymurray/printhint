@@ -19,7 +19,7 @@ var locationListener = {
     },
 
     onLocationChange: function(aProgress, aRequest, aURI) {
-	//printHint.processNewURL(aURI);
+	printHint.processNewURL(aURI);
     },
 
     onStateChange: function() {},
@@ -71,7 +71,7 @@ var printHint = {
 	if(!content.document._printStatus){
 	    // See if we can find a print stylesheet before the page is loaded
 	    // i.e. periodically check for stylesheets until page is fully loaded
-timer.initWithCallback(function({printHint.checkPrintStylesheet(content.document);}) {sendResults(true); }, 300, Components.interfaces.nsITimer.TYPE_REPEATING_SLACK);
+timer.initWithCallback(function() {printHint.checkPrintStylesheet(content.document); }, 1000, Components.interfaces.nsITimer.TYPE_REPEATING_PRECISE);
 	}
 
 	printHint.updatePrintButton();
