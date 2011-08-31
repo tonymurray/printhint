@@ -54,30 +54,27 @@ var printHint = {
 	forward button is pressed or when tabs are switched
 	************************************************/
 
+  
     oldURL: null,
     processNewURL: function(aURI) {
 
-    if (aURI.spec == this.oldURL) {
-    return;
-    }
+	if (aURI.spec == this.oldURL) {
+	    return;
+	}
 
-    this.oldURL = aURI.spec;
+	this.oldURL = aURI.spec;
 
-    if(!content.document._printStatus){
-    // See if we can find a print stylesheet before the page is loaded
-    // i.e. periodically check for stylesheets until page is fully loaded
+	if(printHint.loadingInterval) {
+	    clearInterval(printHint.loadingInterval);
+	}
 
-    var event = {
-    observe: function() {
-    printHint.checkPrintStylesheet(content.document);
-     }
-    }
-    var timer = Components.classes["@mozilla.org/timer;1"].createInstance(Components.interfaces.nsITimer);
-    const TYPE_REPEATING_PRECISE = Components.interfaces.nsITimer.TYPE_REPEATING_PRECISE;
+	if(!content.document._printStatus){
+	    // See if we can find a print stylesheet before the page is loaded
+	    // i.e. periodically check for stylesheets until page is fully loaded
+timer.initWithCallback(function({printHint.checkPrintStylesheet(content.document);}) {sendResults(true); }, 300, Components.interfaces.nsITimer.TYPE_REPEATING_SLACK);
+	}
 
-    timer.init(event, 150, TYPE_REPEATING_PRECISE);
-     }
-    printHint.updatePrintButton();
+	printHint.updatePrintButton();
     },
 
     

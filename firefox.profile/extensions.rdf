@@ -2,10 +2,56 @@
 <RDF:RDF xmlns:NS1="http://www.mozilla.org/2004/em-rdf#"
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-  <RDF:Description RDF:about="rdf:#$5xkQV3"
+  <RDF:Description RDF:about="urn:mozilla:item:{4ca88e02-7bbb-43fe-ae41-5103893fa10c}"
+                   NS1:installLocation="app-profile"
+                   NS1:version="0.4"
+                   NS1:optionsURL="chrome://printhint/content/printhint_prefs.xul"
+                   NS1:aboutURL="chrome://printhint/content/about.xul"
+                   NS1:iconURL="chrome://printhint/skin/printer.png"
+                   NS1:name="Print Hint"
+                   NS1:description="Helps you to quickly find printer-friendly versions of webpages"
+                   NS1:creator="Tony Murray"
+                   NS1:homepageURL="http://www.ruadesign.org/firefox/"
+                   NS1:contributor="Eoghan Murray">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$hLIaR"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="urn:mozilla:item:refractor@developer.mozilla.org"
+                   NS1:installLocation="app-system-local"
+                   NS1:version="1.0b4"
+                   NS1:iconURL="chrome://refractor/skin/install-shortcut48.png"
+                   NS1:name="Prism for Firefox"
+                   NS1:description="Create Prism applications directly in Firefox"
+                   NS1:creator="Prism Project"
+                   NS1:homepageURL="http://wiki.mozilla.org/Prism"
+                   NS1:userDisabled="true">
+    <NS1:type NC:parseType="Integer">2</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$QwkQV3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$BO0m3"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="1.5"
-                   NS1:maxVersion="3.7.*" />
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox-3.6.ubuntu.com"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.6"
+                   NS1:name="Firefox (en-GB)"
+                   NS1:creator="http://translations.launchpad.net">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$PO0m3"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$hLIaR"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.5"
+                   NS1:maxVersion="4.0.*" />
+  <RDF:Description RDF:about="rdf:#$IO0m3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="rdf:#$JUsGb1"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6.15pre"
+                   NS1:maxVersion="3.6.15pre" />
   <RDF:Description RDF:about="rdf:#$1P0m3"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="3.6"
@@ -26,48 +72,6 @@
     <NS1:contributor>Saïvann Carignan &lt;oxmosys@gmail.com&gt;</NS1:contributor>
     <NS1:targetApplication RDF:resource="rdf:#$5xkQV3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$IO0m3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.6"
-                   NS1:maxVersion="3.6.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-CA@firefox-3.6.ubuntu.com"
-                   NS1:installLocation="app-global"
-                   NS1:version="3.6"
-                   NS1:name="Firefox (en-CA)"
-                   NS1:creator="http://translations.launchpad.net">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$IO0m3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$gP0m3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.6.14pre"
-                   NS1:maxVersion="3.6.14pre" />
-  <RDF:Description RDF:about="urn:mozilla:item:refractor@developer.mozilla.org"
-                   NS1:installLocation="app-system-local"
-                   NS1:version="1.0b4"
-                   NS1:iconURL="chrome://refractor/skin/install-shortcut48.png"
-                   NS1:name="Prism for Firefox"
-                   NS1:description="Create Prism applications directly in Firefox"
-                   NS1:creator="Prism Project"
-                   NS1:homepageURL="http://wiki.mozilla.org/Prism"
-                   NS1:userDisabled="true">
-    <NS1:type NC:parseType="Integer">2</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$QwkQV3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:{4ca88e02-7bbb-43fe-ae41-5103893fa10c}"
-                   NS1:installLocation="app-profile"
-                   NS1:version="0.4"
-                   NS1:optionsURL="chrome://printhint/content/printhint_prefs.xul"
-                   NS1:aboutURL="chrome://printhint/content/about.xul"
-                   NS1:iconURL="chrome://printhint/skin/printer.png"
-                   NS1:name="Print Hint"
-                   NS1:description="Helps you to quickly find printer-friendly versions of webpages"
-                   NS1:creator="Tony Murray"
-                   NS1:homepageURL="http://www.ruadesign.org/firefox/"
-                   NS1:contributor="Eoghan Murray">
-    <NS1:type NC:parseType="Integer">2</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$AKLM62"/>
-  </RDF:Description>
   <RDF:Description RDF:about="rdf:#$PO0m3"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="3.6"
@@ -80,27 +84,18 @@
     <NS1:type NC:parseType="Integer">8</NS1:type>
     <NS1:targetApplication RDF:resource="rdf:#$BO0m3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
-                   NS1:installLocation="app-global"
-                   NS1:version="3.6.14pre"
-                   NS1:internalName="classic/1.0"
-                   NS1:locked="true"
-                   NS1:appManaged="true"
-                   NS1:name="Default"
-                   NS1:description="The default theme."
-                   NS1:creator="Mozilla"
-                   NS1:contributor="Mozilla Contributors">
-    <NS1:type NC:parseType="Integer">4</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$gP0m3"/>
-  </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$BO0m3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.6"
-                   NS1:maxVersion="3.6.*" />
   <RDF:Description RDF:about="rdf:#$QwkQV3"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    NS1:minVersion="3.0"
                    NS1:maxVersion="3.6.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-AU@firefox-3.6.ubuntu.com"
+                   NS1:installLocation="app-global"
+                   NS1:version="3.6"
+                   NS1:name="Firefox (en-AU)"
+                   NS1:creator="http://translations.launchpad.net">
+    <NS1:type NC:parseType="Integer">8</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$WO0m3"/>
+  </RDF:Description>
   <RDF:Seq RDF:about="urn:mozilla:item:root">
     <RDF:li RDF:resource="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"/>
     <RDF:li RDF:resource="urn:mozilla:item:refractor@developer.mozilla.org"/>
@@ -112,6 +107,10 @@
     <RDF:li RDF:resource="urn:mozilla:item:langpack-en@firefox-3.6.ubuntu.com"/>
     <RDF:li RDF:resource="urn:mozilla:item:{4ca88e02-7bbb-43fe-ae41-5103893fa10c}"/>
   </RDF:Seq>
+  <RDF:Description RDF:about="rdf:#$WO0m3"
+                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   NS1:minVersion="3.6"
+                   NS1:maxVersion="3.6.*" />
   <RDF:Description RDF:about="urn:mozilla:item:langpack-nl@firefox-3.6.ubuntu.com"
                    NS1:installLocation="app-global"
                    NS1:version="3.6"
@@ -120,28 +119,29 @@
     <NS1:type NC:parseType="Integer">8</NS1:type>
     <NS1:targetApplication RDF:resource="rdf:#$1P0m3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="rdf:#$AKLM62"
+  <RDF:Description RDF:about="rdf:#$5xkQV3"
                    NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.5"
-                   NS1:maxVersion="4.0.*" />
-  <RDF:Description RDF:about="rdf:#$WO0m3"
-                   NS1:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
-                   NS1:minVersion="3.6"
-                   NS1:maxVersion="3.6.*" />
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-GB@firefox-3.6.ubuntu.com"
+                   NS1:minVersion="1.5"
+                   NS1:maxVersion="3.7.*" />
+  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-CA@firefox-3.6.ubuntu.com"
                    NS1:installLocation="app-global"
                    NS1:version="3.6"
-                   NS1:name="Firefox (en-GB)"
+                   NS1:name="Firefox (en-CA)"
                    NS1:creator="http://translations.launchpad.net">
     <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$PO0m3"/>
+    <NS1:targetApplication RDF:resource="rdf:#$IO0m3"/>
   </RDF:Description>
-  <RDF:Description RDF:about="urn:mozilla:item:langpack-en-AU@firefox-3.6.ubuntu.com"
+  <RDF:Description RDF:about="urn:mozilla:item:{972ce4c6-7e08-4474-a285-3208198ce6fd}"
                    NS1:installLocation="app-global"
-                   NS1:version="3.6"
-                   NS1:name="Firefox (en-AU)"
-                   NS1:creator="http://translations.launchpad.net">
-    <NS1:type NC:parseType="Integer">8</NS1:type>
-    <NS1:targetApplication RDF:resource="rdf:#$WO0m3"/>
+                   NS1:version="3.6.15pre"
+                   NS1:internalName="classic/1.0"
+                   NS1:locked="true"
+                   NS1:appManaged="true"
+                   NS1:name="Default"
+                   NS1:description="The default theme."
+                   NS1:creator="Mozilla"
+                   NS1:contributor="Mozilla Contributors">
+    <NS1:type NC:parseType="Integer">4</NS1:type>
+    <NS1:targetApplication RDF:resource="rdf:#$JUsGb1"/>
   </RDF:Description>
 </RDF:RDF>

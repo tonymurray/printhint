@@ -7,7 +7,7 @@ Version:0.11:$
 skypebuttons.so:$
 /usr/lib/mozilla/plugins/skypebuttons.so:$
 :$
-1294431267000:1:5:$
+1295965437000:1:5:$
 Mime Type x-skype for Skype Buttons:$
 Skype Buttons for Kopete:$
 1
@@ -15,16 +15,16 @@ Skype Buttons for Kopete:$
 libnpgtpo3dautoplugin.so:$
 /opt/google/talkplugin/libnpgtpo3dautoplugin.so:$
 :$
-1292280850000:1:5:$
-Google Talk Plugin Video Accelerator version:0.1.43.4:$
+1294788530000:1:5:$
+Google Talk Plugin Video Accelerator version:0.1.43.5:$
 Google Talk Plugin Video Accelerator:$
 1
 0:application/vnd.gtpo3d.auto:O3D MIME::$
 libnpgoogletalk.so:$
 /opt/google/talkplugin/libnpgoogletalk.so:$
 :$
-1292280849000:1:5:$
-Version: 1.7.1.0:$
+1294788529000:1:5:$
+Version: 1.8.0.0:$
 Google Talk Plugin:$
 1
 0:application/googletalk:Google Talk Plugin:googletalk:$
@@ -176,7 +176,7 @@ Shockwave Flash:$
 libflashplayer.so:$
 /usr/lib/adobe-flashplugin/libflashplayer.so:$
 :$
-1290021132000:1:9:$
+1297216977000:1:9:$
 Shockwave Flash 10.2 d161:$
 Shockwave Flash:$
 2
