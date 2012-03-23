@@ -5,7 +5,7 @@
 
 #print-button, 
 #print-button:not([disabled="true"]):hover,
-#print-button[disabled="true"], 
+#print-button[disabled="true"],
 #print-button:not([disabled="true"]):hover:active{ 
 	 list-style-image: url("chrome://printhint/skin/printload.gif");
 	 -moz-image-region: rect(0px 24px 24px 0px);
@@ -15,7 +15,6 @@
 #print-button.notfound, #print-button.linked, #print-button.stylesheet{ 
 	 list-style-image: url("chrome://printhint/skin/printhint.png") !important; 
 }
-
 
 /* Print stylesheets or print links not found */
 
@@ -62,10 +61,10 @@
   -moz-image-region: rect(96px 24px 120px 0px);
 }
 
+
 /* Small versions and status bar
 ******************************************
 */
-
 
 toolbar[iconsize="small"] #print-button, statusbarpanel#printable-status{ 
 	 list-style-image: url("chrome://printhint/skin/printhint-small.png") !important; 

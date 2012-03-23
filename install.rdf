@@ -8,13 +8,13 @@
 		<em:homepageURL>http://www.ruadesign.org/firefox/</em:homepageURL>
 		<em:id>{4ca88e02-7bbb-43fe-ae41-5103893fa10c}</em:id>
 		<em:name>Print Hint</em:name>
-		<em:version>0.5</em:version>
+		<em:version>0.55</em:version>
 		<em:type>2</em:type>
 		<em:targetApplication>
 			<Description>
 				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
 				<em:minVersion>5.0</em:minVersion>
-				<em:maxVersion>6.*</em:maxVersion>
+				<em:maxVersion>11.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 		<em:aboutURL>chrome://printhint/content/about.xul</em:aboutURL>

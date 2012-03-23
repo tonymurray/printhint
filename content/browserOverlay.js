@@ -254,7 +254,7 @@ timer.initWithCallback(function() {printHint.checkPrintStylesheet(content.docume
 	   || content.document._printStatus == "stylesheet"
 	   || content.document._printStatus == "notfound") {
 	    if(PrintHint_Branch.getBoolPref("Preview"))
-		PrintUtils.printPreview(onEnterPrintPreview, onExitPrintPreview);
+		PrintUtils.printPreview(window.PrintPreviewListener || onEnterPrintPreview, window.onExitPrintPreview);
 	    else
 		PrintUtils.print();
 	} else { // A linked stylesheet
